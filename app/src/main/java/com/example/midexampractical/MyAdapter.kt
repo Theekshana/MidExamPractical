@@ -8,12 +8,12 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class MyAdapter( private val countries: List<String>, private val flags: List<Int>) :
+class MyAdapter(private val countries: List<String>, private val flags: List<Int>) :
     RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
     class MyViewHolder(row: View) : RecyclerView.ViewHolder(row) {
-        val countries:TextView = row.findViewById(R.id.number)
-        val flags:ImageView = row.findViewById(R.id.image)
-        val checkBox:CheckBox = row.findViewById(R.id.checkBox)
+        val countries: TextView = row.findViewById(R.id.number)
+        val flags: ImageView = row.findViewById(R.id.image)
+        val checkBox: CheckBox = row.findViewById(R.id.checkBox)
 
     }
 
