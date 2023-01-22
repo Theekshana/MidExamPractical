@@ -16,10 +16,18 @@
 
     <TextView
         android:id="@+id/number"
-        android:layout_width="match_parent"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         tools:text="value"
         android:textSize="15sp"
         android:layout_gravity="center"
         android:layout_marginStart="15dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+
 </LinearLayout>
